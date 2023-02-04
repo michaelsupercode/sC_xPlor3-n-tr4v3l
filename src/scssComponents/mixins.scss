@@ -1,0 +1,19 @@
+@mixin flex {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin button {
+    width: 120px; 
+    display: block; 
+    padding: 10px; 
+    text-align: center;
+    border: 1px solid; 
+    border-radius: 5px; 
+}
+
+@mixin paddingToBrowserBorder {
+    padding: 5vh 10vw; 
+}
+
